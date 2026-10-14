@@ -41,7 +41,7 @@
 1. **先开 Issue 对齐，再动手写代码。** 涉及候选池、注册表还原、升级链路的改动尤其要先说 ——
    这几处历史上都真出过事（见 README「版本记录」）。
 2. Fork → 开分支（建议 `fix/xxx`、`feat/xxx`、`docs/xxx`）→ 改 → 自测 → 提 PR。
-3. PR 描述请用仓库自带的 [模板](.github/PULL_REQUEST_TEMPLATE.md)：**改了什么 / 怎么验证的 / 自查清单**。
+3. PR 描述请用仓库自带的 [模板](PULL_REQUEST_TEMPLATE.md)：**改了什么 / 怎么验证的 / 自查清单**。
    "怎么验证的"那一栏必须写你实际跑过的命令和看到的结果。
 4. 维护者会**在 7 天内**给第一次答复。
 
@@ -126,7 +126,7 @@ fix: 升级源缺少 sha256 时拒绝升级，不再直接放行
 
 ## 六、许可
 
-本项目是 MIT（见 [LICENSE](LICENSE)）。你提交的贡献即表示同意按同一许可发布。
+本项目是 MIT（见 [LICENSE](../LICENSE)）。你提交的贡献即表示同意按同一许可发布。
 
 ---
 
@@ -135,8 +135,8 @@ fix: 升级源缺少 sha256 时拒绝升级，不再直接放行
 | 文件 | 说明 |
 | --- | --- |
 | `github_direct.py` | 主程序：代理、PAC、体检、控制面板（推荐用这个） |
-| `Fix-GitHub.ps1` | **历史脚本，仓库里只有它会改 `hosts`**：往 `hosts` 里钉 IP + 装计划任务定时换；**需要管理员权限**，与主程序二选一（主程序不碰 `hosts`） |
-| `Run-GitHubFix.bat` | 以管理员身份拉起 `Fix-GitHub.ps1`（会弹 UAC） |
+| `tools/Fix-GitHub.ps1` | **历史脚本，仓库里只有它会改 `hosts`**：往 `hosts` 里钉 IP + 装计划任务定时换；**需要管理员权限**，与主程序二选一（主程序不碰 `hosts`） |
+| `tools/Run-GitHubFix.bat` | 以管理员身份拉起 `tools/Fix-GitHub.ps1`（会弹 UAC） |
 | `build_exe.py` | PyInstaller 打包脚本 |
 | `make_version_json.py` | 生成升级源 `version.json`（版本号 + exe 指纹 + 字节数） |
 | `tools/preflight_release.py` | **发版前自检闸门**（发布前必须全绿），见下方「发版前自检」 |
@@ -144,7 +144,7 @@ fix: 升级源缺少 sha256 时拒绝升级，不再直接放行
 | `tools/publish.py` | 一键发布流水线（Gitee 主 + GitHub 镜像），内置自检闸门 |
 | `requirements.txt` | 依赖口径：主程序零第三方依赖，只有发布脚本需要 `requests` |
 | `app.ico` | 程序图标（自绘，不含第三方吉祥物或标志） |
-| `release-notes.md` | 发行说明 |
+| `docs/release-notes.md` | 发行说明 |
 | `使用说明.txt` | 中文使用说明 |
 
 打包注意：
@@ -152,7 +152,7 @@ fix: 升级源缺少 sha256 时拒绝升级，不再直接放行
 - PyInstaller 的 `--clean` 参数在某些受限环境下会因批量删缓存被拦，脚本里已去掉。
 - 产物名与版本号都从 `github_direct.py` 的 `APP_VERSION` 推导，只有一个来源，不用改两处。
 - **`.ps1` 文件必须保存为「UTF-8 带 BOM」**。PowerShell 5.1 对没有 BOM 的文件按 ANSI 读，
-  中文会变乱码，字符串/花括号被破坏后直接 ParserError —— `Fix-GitHub.ps1` 在 v1.0.1 之前
+  中文会变乱码，字符串/花括号被破坏后直接 ParserError —— `tools/Fix-GitHub.ps1` 在 v1.0.1 之前
   就是这样：文件本身完整，但因为没有 BOM 而**从未成功运行过**。
 
 > 图标不用管：`app.ico` 已经入库，且为**自绘**（不含任何第三方吉祥物或标志，见 `COMPLIANCE.md`）。
