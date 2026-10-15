@@ -3,14 +3,50 @@
 
 <h1>狐径 FoxPath</h1>
 
-<img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" height="30">
-<img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square" height="30">
-<a href="https://github.com/kele551/FoxPath/releases"><img alt="Release" src="https://img.shields.io/github/v/release/kele551/FoxPath?style=flat-square&label=release&color=blue" height="30"></a>
 <a href="https://github.com/kele551/FoxPath/releases" title="点击去下载"><img alt="Downloads" src="https://img.shields.io/github/downloads/kele551/FoxPath/total?style=flat-square&label=GitHub%E4%B8%8B%E8%BD%BD&color=brightgreen" height="30"></a>
-<a href="#sponsor"><img alt="Sponsor" src="https://img.shields.io/badge/%E2%98%95_%E8%B5%9E%E8%B5%8F-%E8%AF%B7%E5%96%9D%E5%92%96%E5%95%A1-ff69b4?style=flat-square&labelColor=3d4552" height="30"></a>
+<a href="https://gitee.com/kele551/FoxPath/access" title="Gitee 仓库访问统计 · 实时计数"><img alt="Gitee 访问" src="https://hits.sh/gitee.com/kele551/FoxPath.svg?label=Gitee%E8%AE%BF%E9%97%AE&color=c71d24&style=flat-square" height="30"></a>
 
-<p>🦊 <b>GitHub 访问优化助手</b>　·　作者 <b>海风（kele551）</b>　·　<a href="https://gitee.com/kele551/FoxPath">Gitee</a>（主）　·　<a href="https://github.com/kele551/FoxPath">GitHub</a>（镜像）</p>
+<a href="https://github.com/kele551/FoxPath/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square"></a>
+<img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square">
+<a href="https://github.com/kele551/FoxPath/releases"><img alt="Release" src="https://img.shields.io/github/v/release/kele551/FoxPath?style=flat-square&label=release&color=blue"></a>
+<img alt="Last Commit" src="https://img.shields.io/github/last-commit/kele551/FoxPath?style=flat-square&label=last%20commit&color=blue">
+
+<a href="https://github.com/kele551/FoxPath/stargazers"><img alt="GitHub Star" src="https://img.shields.io/github/stars/kele551/FoxPath?style=flat-square&logo=github&label=GitHub%20Star&color=gold"></a>
+<a href="https://gitee.com/kele551/FoxPath"><img alt="Gitee Star" src="https://gitee.com/kele551/FoxPath/badge/star.svg"></a>
+<a href="https://github.com/kele551/FoxPath/network/members"><img alt="GitHub Fork" src="https://img.shields.io/github/forks/kele551/FoxPath?style=flat-square&label=GitHub%20Fork&color=blue"></a>
+<a href="https://github.com/kele551"><img alt="Follow Author" src="https://img.shields.io/github/followers/kele551?style=flat-square&logo=github&label=follow%20author&color=blue"></a>
+
+<img alt="No Admin" src="https://img.shields.io/badge/管理员权限-不需要-brightgreen?style=flat-square">
+<img alt="No Hosts DNS" src="https://img.shields.io/badge/hosts·DNS-不改-brightgreen?style=flat-square">
+<img alt="Zero Deps" src="https://img.shields.io/badge/第三方依赖-零-green?style=flat-square">
+
+<a href="https://gitee.com/kele551/FoxPath/releases"><img alt="Download from Gitee" src="https://img.shields.io/badge/%F0%9F%93%A5_%E4%B8%8B%E8%BD%BD-Gitee%E4%B8%BB%E6%BA%90-c71d24?style=flat-square&logo=gitee&logoColor=white&labelColor=3d4552"></a>
+<a href="https://github.com/kele551/FoxPath"><img alt="GitHub mirror" src="https://img.shields.io/badge/%F0%9F%90%99_%E6%BA%90%E7%A0%81-GitHub%E9%95%9C%E5%83%8F-24292f?style=flat-square&logo=github&logoColor=white&labelColor=3d4552"></a>
+<a href="https://www.bilibili.com/video/BV1tupx6kEPt"><img alt="Bilibili demo" src="https://img.shields.io/badge/%F0%9F%93%BA_%E6%BC%94%E7%A4%BA-B%E7%AB%99%E8%A7%86%E9%A2%91-00a1d6?style=flat-square&logo=bilibili&logoColor=white&labelColor=3d4552"></a>
+<a href="https://github.com/kele551/FoxPath/issues"><img alt="Issues" src="https://img.shields.io/badge/%F0%9F%90%9E_%E5%8F%8D%E9%A6%88-%E6%8F%90Issue-0969da?style=flat-square&labelColor=3d4552"></a>
+<a href="#sponsor"><img alt="Sponsor" src="https://img.shields.io/badge/%E2%98%95_%E8%B5%9E%E8%B5%8F-%E8%AF%B7%E5%96%9D%E5%92%96%E5%95%A1-ff69b4?style=flat-square&labelColor=3d4552"></a>
+
+<p>🦊 <b>GitHub 访问优化助手</b>　·　只在本机做网络分流，退出即还原</p>
+
+<p>作者 <b>海风（kele551）</b>　·　<a href="https://gitee.com/kele551/FoxPath">Gitee（主）</a>　·　<a href="https://github.com/kele551/FoxPath">GitHub（镜像）</a></p>
 </div>
+
+<details>
+<summary>📊 <b>仓库数据一览</b>（点击展开）</summary>
+
+<p align="center">
+<img alt="Release Date" src="https://img.shields.io/github/release-date/kele551/FoxPath?style=flat-square&label=release%20date">
+<img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/y/kele551/FoxPath?style=flat-square&label=commits%2Fyear">
+<img alt="Contributors" src="https://img.shields.io/github/contributors/kele551/FoxPath?style=flat-square&label=contributors">
+<a href="https://github.com/kele551/FoxPath/issues"><img alt="Issues" src="https://img.shields.io/github/issues/kele551/FoxPath?style=flat-square&label=issues"></a>
+<img alt="Resolved" src="https://img.shields.io/github/issues-closed/kele551/FoxPath?style=flat-square&label=resolved">
+<img alt="Gitee Fork" src="https://gitee.com/kele551/FoxPath/badge/fork.svg">
+<img alt="Language" src="https://img.shields.io/github/languages/top/kele551/FoxPath?style=flat-square">
+<img alt="Code Size" src="https://img.shields.io/github/languages/code-size/kele551/FoxPath?style=flat-square&label=code%20size">
+<a href="https://github.com/kele551/FoxPath/blob/main/.github/CONTRIBUTING.md"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square"></a>
+</p>
+
+</details>
 
 GitHub 访问优化助手。本机网络分流 + PAC，不依赖域名解析，直连当前实测可用的 GitHub 官方 IP。
 
@@ -18,26 +54,47 @@ GitHub 访问优化助手。本机网络分流 + PAC，不依赖域名解析，�
 主程序从代码到运行都不碰 `hosts` 文件：它只把代理设置写进当前用户的注册表（HKCU），
 代理范围与还原方式见下面「原理」「核心机制」两节。
 
-> ⚠ 仓库里另有一个**独立的历史脚本** `Fix-GitHub.ps1`（配合 `Run-GitHubFix.bat`）：
+> ⚠ 仓库里另有一个**独立的历史脚本** `tools/Fix-GitHub.ps1`（配合 `tools/Run-GitHubFix.bat`）：
 > **只有它会改 `hosts`** —— 直接往系统 `hosts` 里钉 IP + 装一个计划任务定时换 IP，
 > **需要管理员权限**。它是上一代做法，与主程序**不共享代码、也不会一起运行**：
 > 用主程序就不需要它，两者**二选一**，别同时用（同时用会互相打架）。详见下方文件表。
 
+---
+
+## 三步上手
+
+| 步骤 | 做什么 |
+|---|---|
+| **① 下载** | [Gitee 发行页](https://gitee.com/kele551/FoxPath/releases)（国内主源、直连快）或 [GitHub Releases](https://github.com/kele551/FoxPath/releases)，拿 `FoxPath.exe` |
+| **② 运行** | 双击 `FoxPath.exe` → 浏览器自动弹出控制面板（首次启动等 15～20 秒，它在并发体检 IP） |
+| **③ 启用** | 面板点「启用加速」完事；不用了点「退出并还原」，系统设置恢复原样 |
+
+绿色单文件、无需安装、不要管理员权限；以后升级就在面板里点「检查更新 → 立即升级」。
+
+---
+
 ## 目录
 
+<details>
+<summary>📖 展开全部章节</summary>
+
+- [三步上手](#三步上手)
 - [解决什么问题](#解决什么问题)
 - [原理](#原理)
 - [用法](#用法)
 - [核心机制](#核心机制)
-- [从源码构建](#从源码构建)
-- [发版前自检（发布闸门）](#发版前自检发布闸门)
+- [从源码构建与发版自检](#从源码构建与发版自检)
 - [已知边界](#已知边界)
 - [版本记录](#版本记录)
 - [联系与反馈](#联系与反馈)
-- [代码签名政策](CODE_SIGNING_POLICY.md)
-- [贡献指南](CONTRIBUTING.md)　·　[安全政策](SECURITY.md)
+- [代码签名政策](.github/CODE_SIGNING_POLICY.md)
+- [贡献指南](.github/CONTRIBUTING.md)　·　[安全政策](.github/SECURITY.md)
 - [路线图（Roadmap）](#路线图roadmap)　·　[参与贡献与治理](#参与贡献与治理)
 - [许可](#许可)
+
+</details>
+
+---
 
 ## 解决什么问题
 
@@ -50,6 +107,8 @@ GitHub 访问优化助手。本机网络分流 + PAC，不依赖域名解析，�
 根因通常不在网络本身，而在**本地域名解析出来的那个 GitHub IP 在当前线路上不通**。浏览器按解析结果走，就会卡住。
 
 狐径不查 DNS——它自己拿着一批 GitHub 官方 IP 逐个实测握手，挑能用的直连。
+
+---
 
 ## 原理
 
@@ -71,24 +130,23 @@ GitHub 访问优化助手。本机网络分流 + PAC，不依赖域名解析，�
 
 </details>
 
+---
 
 ## 用法
 
-1. 从 [Releases](https://github.com/kele551/FoxPath/releases) 下载 `FoxPath.exe`
+<details>
+<summary><b>用法</b>（点击展开）</summary>
+
+
+1. 从 [Gitee Releases](https://gitee.com/kele551/FoxPath/releases)（国内主源，直连快）或 [GitHub Releases](https://github.com/kele551/FoxPath/releases) 下载 `FoxPath.exe`
 2. 双击运行 → 浏览器自动打开控制面板 `http://127.0.0.1:8788/ui`
 3. 勾选「开机自启」即可后台常驻
 
 **首次启动请等 15～20 秒**：程序要并发体检 49 个候选 IP，体检完成前代理还没完全生效。
 
-> **本次更新了安装包，但版本号没有变。**
-> 升级检查是拿「线上版本号」和「你本地的版本号」比的 —— 版本号没变，
-> **已经装着同一个版本号的朋友不会收到升级提示**；比线上旧的版本仍会正常自动升级。
-> 如果你用着不顺畅（例如**面板「日志」那一栏一直是空白的**、**搜出来的 IP 延迟虚高**），
-> 可以**重新下载最新安装包**覆盖安装一次，你的配置与收藏都会保留；更新内容以发行页说明为准。
->
-> 最新安装包里，**IP 延迟不再把 HTTP 超时算进去**（以前慢线路会被显示成"延迟很高"），
-> 代理**只接管 GitHub 相关域名**（`github.com` / `githubusercontent.com` / `github.io` 等），
-> 其余流量一律不经过它；仓库源码的同步会随后统一提交。
+> 升级最简单的方式是面板里的「检查更新 → 立即升级」（v1.1.1 起手动检查强制联网，不再被缓存挡住）。
+> 万一升级源也连不上，到 [Gitee 发行页](https://gitee.com/kele551/FoxPath/releases) 下载最新 `FoxPath.exe`
+> 覆盖安装即可，配置与收藏全部保留、无需卸载。
 
 ### 控制面板上有什么
 
@@ -101,9 +159,6 @@ GitHub 访问优化助手。本机网络分流 + PAC，不依赖域名解析，�
 | **当前可用 IP** | 按延迟排序的可用 IP 表，每 5 分钟自动刷新 | 看当前线路还剩几个能用。一个都没有时会自动重拉官方 IP 表并回退系统 DNS —— 反馈问题时把这栏的数字一起贴上 |
 | **日志** | `foxpath.log` 的尾部，自动滚到最新 | 打不开 GitHub 先看这里 |
 
-> 升级不用手动换文件：新版下完先校验 SHA256，通过后交给一个小助手 ——
-> 让旧程序退出并还原系统代理 → 覆盖 exe → 自动重启。校验不过就放弃，不会留半成品。
-
 > 从 v1.0.3 起文件名不再带版本号（固定 FoxPath.exe），**版本号写进 exe 的属性里**（鼠标悬停或右键-属性-详细信息可见）。
 > 下载文件名故意用 ASCII（`FoxPath.exe`）。GitHub / Gitee 上传附件时会把中文
 > 文件名改坏（实测 `狐径-v1.0.0.exe` 传上去变成了 `-v1.0.0.exe`），所以对外一律用 ASCII 名。
@@ -114,6 +169,10 @@ PAC 设置清掉，不起代理、不开面板。万一程序被强杀、或者�
 
 **日志在哪**：`%LOCALAPPDATA%\FoxPath\foxpath.log`（exe 是无窗口的，屏幕上什么都看不到，
 有问题先看这个文件）。
+
+</details>
+
+---
 
 ## 核心机制
 
@@ -139,85 +198,16 @@ PAC 设置清掉，不起代理、不开面板。万一程序被强杀、或者�
 
 </details>
 
+---
 
-## 从源码构建
+## 从源码构建与发版自检
 
-<details>
-<summary><b>从源码构建</b>（点击展开）</summary>
+构建命令、仓库文件说明、打包注意事项见 [CONTRIBUTING.md](.github/CONTRIBUTING.md) 第四节与第七节；
+发版前自检（发布闸门 `tools/preflight_release.py`）的完整说明见 [CONTRIBUTING.md](.github/CONTRIBUTING.md) 第八节。
+主程序**零第三方依赖**（只用 Python 标准库）；产物由本仓库源码构建、可复现，
+逐项说明见 [CODE_SIGNING_POLICY.md](.github/CODE_SIGNING_POLICY.md)。
 
-
-```bash
-pip install pyinstaller
-
-python build_exe.py                   # 打包成 FoxPath.exe
-```
-
-主程序**零第三方依赖**（只用 Python 标准库），打包额外需要 `pyinstaller`，
-发布流水线 `tools/publish.py` 需要 `requests` —— 依赖口径见仓库根目录的 `requirements.txt`。
-
-> 图标不用管：`app.ico` 已经入库，且为**自绘**（不含任何第三方吉祥物或标志，见 `COMPLIANCE.md`）。
-> 当初做图标用的那几个一次性脚本（`create_icon*.py` / `make_icon_from_user_image.py`）已从仓库
-> 移除：它们把输入输出路径写死在作者本机，在别的机器上跑不通，正常构建也不需要它们。
-
-| 文件 | 说明 |
-| --- | --- |
-| `github_direct.py` | 主程序：代理、PAC、体检、控制面板（推荐用这个） |
-| `Fix-GitHub.ps1` | **历史脚本，仓库里只有它会改 `hosts`**：往 `hosts` 里钉 IP + 装计划任务定时换；**需要管理员权限**，与主程序二选一（主程序不碰 `hosts`） |
-| `Run-GitHubFix.bat` | 以管理员身份拉起 `Fix-GitHub.ps1`（会弹 UAC） |
-| `build_exe.py` | PyInstaller 打包脚本 |
-| `make_version_json.py` | 生成升级源 `version.json`（版本号 + exe 指纹 + 字节数） |
-| `tools/preflight_release.py` | **发版前自检闸门**（发布前必须全绿），见下方「发版前自检」 |
-| `tools/compare_ips.py` | 把内置候选 IP 与 GitHub 官方 `meta` 网段对照（排查用） |
-| `tools/publish.py` | 一键发布流水线（Gitee 主 + GitHub 镜像），内置自检闸门 |
-| `requirements.txt` | 依赖口径：主程序零第三方依赖，只有发布脚本需要 `requests` |
-| `app.ico` | 程序图标（自绘，不含第三方吉祥物或标志） |
-| `release-notes.md` | 发行说明 |
-| `使用说明.txt` | 中文使用说明 |
-
-打包注意：
-
-- PyInstaller 的 `--clean` 参数在某些受限环境下会因批量删缓存被拦，脚本里已去掉。
-- 产物名与版本号都从 `github_direct.py` 的 `APP_VERSION` 推导，只有一个来源，不用改两处。
-- **`.ps1` 文件必须保存为「UTF-8 带 BOM」**。PowerShell 5.1 对没有 BOM 的文件按 ANSI 读，
-  中文会变乱码，字符串/花括号被破坏后直接 ParserError —— `Fix-GitHub.ps1` 在 v1.0.1 之前
-  就是这样：文件本身完整，但因为没有 BOM 而**从未成功运行过**。
-
-</details>
-
-
-## 发版前自检（发布闸门）
-
-<details>
-<summary><b>发版前自检（发布闸门）</b>（点击展开）</summary>
-
-
-**发版前自检脚本随仓库提供，位置 `tools/preflight_release.py`**（同目录的 `tools/compare_ips.py`
-用于对照官方 `meta` 网段排查候选 IP）：
-
-```bash
-python tools/preflight_release.py              # 默认拿仓库根目录的 FoxPath.exe 当候选
-python tools/preflight_release.py --help       # 看全部开关
-python tools/preflight_release.py --dry-run    # 只跑静态项：不写注册表、不拉程序、不碰系统代理
-```
-
-检查内容：
-
-| 类别 | 检查什么 |
-| --- | --- |
-| 版本一致性 | exe 文件版本 = 源码 `APP_VERSION` = `version.json` 版本，且 `version.json` 的 `sha256` / `size` 与候选 exe 对上 |
-| 冷启动演练 | 把候选 exe 复制成「刚下载落地」的样子，立刻用隐藏 PowerShell 启动，必须在限定时间内起来 |
-| 完整升级演练 | 旧版 → 本地升级源 → 检查更新 → 立即升级 → 必须自己起来（起不来则必须「重试过 + 明确提示用户」），并核对换上去的文件**指纹**等于候选 |
-| 失败分支 | 升级源里的 `sha256` 故意写错 → 必须拒绝并保留旧版 |
-| 接口与还原 | `/pac` 纯 ASCII、`/api/diag` 正常、非法 IP 被拒、连点两次启用不污染系统代理备份、退出后注册表还原、不留垃圾 |
-| 一致性警告（WARN） | ① 工作区副本与仓库副本 `tools/preflight_release.py` 的 **sha256 是否一致**（两份漂移了就警告）；② **两平台发行版附件 SHA256 是否一致**（Gitee 请求间隔 ≥3 秒限速；网络或平台异常只警告，不判红） |
-
-> 自检会真的改注册表、拉起本机已装的狐径（结束时再把它重新启动），所以**别在有正式发布任务之外随手整轮跑**；
-> 只想确认脚本自己没坏，用 `--dry-run`（只做静态检查）。
-> 警告级（WARN）不阻断发布，但会在结尾单独列出来，发布前应当看一眼。
-> `tools/publish.py release` 已内置这道闸门：自检不全绿直接中止发布（`--skip-preflight` 只留给线上事故回滚，且要在 `logs\` 写明原因）。
-
-</details>
-
+---
 
 ## 升级时请注意
 
@@ -225,6 +215,8 @@ python tools/preflight_release.py --dry-run    # 只跑静态项：不写注册�
 <summary><b>升级时请注意</b>（点击展开）</summary>
 
 
+- **升级不用手动换文件**：新版下完先校验 SHA256，通过后交给一个小助手 ——
+  让旧程序退出并还原系统代理 → 覆盖 exe → 自动重启。校验不过就放弃，不会留半成品。
 - **不会把「降级」当「升级」**：升级前按版本号语义比较（`1.0.10 > 1.0.9` 这种也算得对），
   只有线上确实比本地新才会提示「发现新版本」；线上不比本地新时，面板直接说明是
   「已是最新版」还是「本地版本比线上新（线上尚未发布）」，**「立即升级」按钮置灰，
@@ -239,9 +231,14 @@ python tools/preflight_release.py --dry-run    # 只跑静态项：不写注册�
   结果 `Failed to load Python DLL`。**该问题自 v1.0.7 起修复**（起新版本前先擦掉这些变量）。
 - **从 v1.0.6 升到 v1.0.7 这一跳**用的仍是老版小助手（不重试、不回滚），所以**仍可能失败一次**；
   失败了双击 `FoxPath.exe` 即可。**从 v1.0.7 往后，升级全程带护栏。**
+- **升级源不通时怎么办（2026-10-12 补）**：如果点「检查更新」长时间显示「连不上升级源」或
+  「联网失败，显示的是上次检查的结果」（Gitee/GitHub 两个 raw 源都够不着的极端线路），
+  不必干等——直接到 [Gitee 发行页](https://gitee.com/kele551/FoxPath/releases) 手动下载最新的
+  `FoxPath.exe`，**关掉旧程序后双击覆盖**即可，配置全部保留、无需卸载重装。
 
 </details>
 
+---
 
 ## 已知边界
 
@@ -276,33 +273,35 @@ python tools/preflight_release.py --dry-run    # 只跑静态项：不写注册�
 
 </details>
 
+---
 
 ## 版本记录
 
-<details>
-<summary><b>版本记录</b>（点击展开）</summary>
-
-
-> 当前对外发布版本是 **v1.0.8**（2026-10-10，Gitee 与 GitHub 同步；
-> 已随 v1.0.8 发布：一次完整的源码体检之后的修复（自检脚本可在仓库内直接运行、
-> 升级脚本的版本号转义、移除遗留的一次性图标脚本）。
-> 上一版 **v1.0.7**：升级护栏（拒绝降级、失败自动回滚、小助手不再把 _PYI_* 传给新版本）。
+> 当前对外发布版本 **v1.1.1**（2026-10-12，Gitee 与 GitHub 同步）。完整逐版说明见 [release-notes.md](docs/release-notes.md)。
 
 | 版本 | 日期 | 说明 |
 | --- | --- | --- |
-| v1.0.0 | 2026-09-19 | 首个版本：本地代理 + PAC、每 5 分钟 IP 体检、候选池自动刷新、全灭自愈、退出还原 |
-| v1.0.1 | 2026-09-22 | 修「还原不了系统代理」一类缺陷：重复启用不再污染备份、备份失败不再改注册表、静默模式也注册退出还原、加单实例与端口占用提示、日志落文件、新增 `--restore`；`Fix-GitHub.ps1` 补 UTF-8 BOM（此前无法运行）；打包脚本改为 ASCII 产物名 + 版本号单一来源；修正文档与实现不一致之处 |
-| v1.0.2 | 2026-09-22 | 修「双击没反应」：程序已在后台时，第二次双击改为**直接打开正在运行的控制面板**再退出（以前只写一行日志就静默退出，用户以为程序坏了） |
-| v1.0.3 | 2026-09-22 | 重做图标（去白底卡片、清掉残留边框、裁到狐狸本体居中放大，重出七档尺寸）；产物改名 `FoxPath.exe` 不带版本号，版本号写进 exe 属性 |
-| v1.0.4 | 2026-09-22 | 加作者署名（源码文件头、控制面板底部、日志、exe 属性、README 统一为「海风（kele551）」）；README 里的私人邮箱换成 Issues 链接 |
-| v1.0.5 | 2026-09-22 | **网页版在线升级**：控制面板里检查更新、版本迁移动画 + 渐变色进度条，下载到 `.new` 校验 SHA256 后由独立小助手接管（先让旧程序退出并还原系统代理 → 覆盖 → 重启） |
-| v1.0.6 | 2026-10-08 | **联通/移动友好**：内置候选池扩到官方全量 45 个 IPv4；IP 表三源依次兜底（官方 `meta` → Gitee 上的 `meta.json` → GitHub raw）；`raw.githubusercontent.com` / `objects.githubusercontent.com` 改走**专属 IP 池**（官方 `185.199.108.0/22`），raw 文件与发布附件也能加速（回应 Issue #1）；429 限流视为存活（实测可用 19/49 → 31/49）；面板新增「线路体检」与「手动指定 IP」；升级小助手加固（覆盖后轮询确认新实例真的起来、递增重试、失败弹窗提示手动双击）；对外文案措辞中性化 |
-| v1.0.7 | 2026-10-09 | **升级护栏**：① 版本号按语义比较，**拒绝把降级当升级**（面板置灰 + 服务端拦截）；② 升级失败**自动回滚**旧版；③ 找到「升级后起不来」的**真因**（小助手把 `_PYI_*`/`_MEIPASS*` 环境变量传给了新版本，导致引导程序误判已解包）；④ 升级结果气泡 + 回执文件 |
+| v1.1.1 | 2026-10-12 | 「检查更新」强制联网（修 6 小时缓存挡升级提示）；exe 下载多源回退 `mirrors[]`；手动下载口径进文档 |
+| v1.1.0 | 2026-10-12 | **重大更新**：吞吐挑 IP、raw/pages IPv6 双池、IPv6 闸门、好 IP 复用 + 失败降权、头像域纳入代理、静默启动、PAC 总闸修正 |
+| v1.0.8 | 2026-10-10 | 升级链路加固与仓库治理（10-11 曾同版本号换过一次包） |
 
-详细发行说明见 [release-notes.md](release-notes.md)。
+<details>
+<summary><b>更早版本（v1.0.0 ～ v1.0.7）</b>（点击展开）</summary>
+
+| 版本 | 日期 | 说明 |
+| --- | --- | --- |
+| v1.0.7 | 2026-10-09 | **升级护栏**：① 版本号按语义比较，**拒绝把降级当升级**（面板置灰 + 服务端拦截）；② 升级失败**自动回滚**旧版；③ 找到「升级后起不来」的**真因**（小助手把 `_PYI_*`/`_MEIPASS*` 环境变量传给了新版本，导致引导程序误判已解包）；④ 升级结果气泡 + 回执文件 |
+| v1.0.6 | 2026-10-08 | **联通/移动友好**：内置候选池扩到官方全量 45 个 IPv4；IP 表三源依次兜底（官方 `meta` → Gitee 上的 `meta.json` → GitHub raw）；`raw.githubusercontent.com` / `objects.githubusercontent.com` 改走**专属 IP 池**（官方 `185.199.108.0/22`），raw 文件与发布附件也能加速（回应 Issue #1）；429 限流视为存活（实测可用 19/49 → 31/49）；面板新增「线路体检」与「手动指定 IP」；升级小助手加固（覆盖后轮询确认新实例真的起来、递增重试、失败弹窗提示手动双击）；对外文案措辞中性化 |
+| v1.0.5 | 2026-09-22 | **网页版在线升级**：控制面板里检查更新、版本迁移动画 + 渐变色进度条，下载到 `.new` 校验 SHA256 后由独立小助手接管（先让旧程序退出并还原系统代理 → 覆盖 → 重启） |
+| v1.0.4 | 2026-09-22 | 加作者署名（源码文件头、控制面板底部、日志、exe 属性、README 统一为「海风（kele551）」）；README 里的私人邮箱换成 Issues 链接 |
+| v1.0.3 | 2026-09-22 | 重做图标（去白底卡片、清掉残留边框、裁到狐狸本体居中放大，重出七档尺寸）；产物改名 `FoxPath.exe` 不带版本号，版本号写进 exe 属性 |
+| v1.0.2 | 2026-09-22 | 修「双击没反应」：程序已在后台时，第二次双击改为**直接打开正在运行的控制面板**再退出（以前只写一行日志就静默退出，用户以为程序坏了） |
+| v1.0.1 | 2026-09-22 | 修「还原不了系统代理」一类缺陷：重复启用不再污染备份、备份失败不再改注册表、静默模式也注册退出还原、加单实例与端口占用提示、日志落文件、新增 `--restore`；`Fix-GitHub.ps1` 补 UTF-8 BOM（此前无法运行）；打包脚本改为 ASCII 产物名 + 版本号单一来源；修正文档与实现不一致之处 |
+| v1.0.0 | 2026-09-19 | 首个版本：本地代理 + PAC、每 5 分钟 IP 体检、候选池自动刷新、全灭自愈、退出还原 |
 
 </details>
 
+---
 
 ## 联系与反馈
 
@@ -312,9 +311,13 @@ python tools/preflight_release.py --dry-run    # 只跑静态项：不写注册�
 
 反馈时如果能顺手附上控制面板里「当前可用 IP」那一栏的数字，定位会快很多。
 
+---
+
 ## 许可
 
 MIT
+
+---
 
 ## 路线图（Roadmap）
 
@@ -327,21 +330,24 @@ MIT
    要加的是"真的握手成功过才入池"的 IPv6 地址，而不是把段表直接塞进去。
 3. **线路自适应**：按当前线路的历史成败给候选排序，换网（宽带 ↔ 热点）后不从头再摸一遍。
 4. **代码签名申请**：产物已自带 SHA256 与可复现构建说明，下一步申请免费代码签名，
-   缓解"首次运行被安全软件拦一下"的体验问题。详见 [CODE_SIGNING_POLICY.md](CODE_SIGNING_POLICY.md)。
+   缓解"首次运行被安全软件拦一下"的体验问题。详见 [CODE_SIGNING_POLICY.md](.github/CODE_SIGNING_POLICY.md)。
 
 > 路线图只列真实在办的事，做完一项改一项；临时想到的、还没验证的想法不写在这里。
+
+---
 
 ## 参与贡献与治理
 
 | 项目 | 说明 |
 | --- | --- |
 | 维护者 | [@kele551](https://github.com/kele551)（海风），一人维护，同时担任提交者、审查者与发布批准者 |
-| 响应预期 | Issue / PR 一般 **7 天内**给第一次答复；安全类问题按 [SECURITY.md](SECURITY.md) 私下走，**3 天内**响应 |
+| 响应预期 | Issue / PR 一般 **7 天内**给第一次答复；安全类问题按 [SECURITY.md](.github/SECURITY.md) 私下走，**3 天内**响应 |
 | 许可 | MIT（见 [LICENSE](LICENSE)）；提交贡献即表示同意按同一许可发布 |
-| 怎么参与 | 提 Issue / PR 之前先看 [CONTRIBUTING.md](CONTRIBUTING.md)：Issue 模板、PR 流程、代码风格、本地构建与自查、提交信息规范都在里面 |
-| 安全 | 漏洞请**不要**开公开 Issue，按 [SECURITY.md](SECURITY.md) 私下报告 |
+| 怎么参与 | 提 Issue / PR 之前先看 [CONTRIBUTING.md](.github/CONTRIBUTING.md)：Issue 模板、PR 流程、代码风格、本地构建与自查、提交信息规范都在里面 |
+| 安全 | 漏洞请**不要**开公开 Issue，按 [SECURITY.md](.github/SECURITY.md) 私下报告 |
 | 发布纪律 | 主程序零第三方依赖；每次发布都要先跑发版前自检 `tools/preflight_release.py`（版本一致性、冷启动演练、升级演练、失败分支、退出还原）全绿，才允许上传附件 |
-| 合规 | 本项目的法律与知识产权边界见 [COMPLIANCE.md](COMPLIANCE.md)：只在本机运行、不提供代理服务、只连接服务方公开地址、不采集用户数据；不使用他人商标作为品牌名 |
+| 合规 | 本项目的法律与知识产权边界见 [COMPLIANCE.md](.github/COMPLIANCE.md)：只在本机运行、不提供代理服务、只连接服务方公开地址、不采集用户数据；不使用他人商标作为品牌名 |
+
 ---
 
 <a id="sponsor"></a>
@@ -350,11 +356,17 @@ MIT
 
 如果 **狐径 FoxPath** 帮到了你，**给仓库点个 Star ⭐** 就是最好的支持 —— 它能让更多人看到这个项目。
 
-如果想再进一步，也可以请作者喝杯咖啡（**完全自愿，不影响任何功能**）：
+如果想再进一步，请作者喝杯咖啡（**完全自愿，不影响任何功能**）：
 
-| 微信（WeChat） | 支付宝（Alipay） |
-|:---:|:---:|
-| <img src="docs/qr-wechat.png" alt="微信收款码" width="220" height="220"> | <img src="docs/qr-alipay.png" alt="支付宝收款码" width="220" height="220"> |
+<p align="center">
+  <img src="docs/qr-sponsor.png" alt="海风的微信赞赏码" width="260">
+  <br>
+  <sub>微信扫一扫 · 金额随缘</sub>
+</p>
 
 > 本项目以 MIT 协议自由开源，**没有付费版、也没有付费功能**；捐赠纯属自愿，
 > 与功能开放、版本更新、Issue 响应**没有任何关系**。
+
+---
+
+<p align="center"><sub>© 2026 海风（kele551） · MIT License · <a href="https://gitee.com/kele551/FoxPath">Gitee 主仓库</a> · <a href="https://github.com/kele551/FoxPath">GitHub 镜像</a></sub></p>
