@@ -31,6 +31,7 @@ import io
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -38,6 +39,12 @@ from urllib.parse import quote
 from pathlib import Path
 
 import requests
+
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
 
 REPO_DIR = Path(__file__).resolve().parent.parent
 OWNER, REPO = 'kele551', 'FoxPath'
@@ -93,7 +100,9 @@ EXE_NAME = 'FoxPath.exe'            # version.json 里写的就是这个名字
 VER_FILES = [
     ('github_direct.py', re.compile(r"(APP_VERSION\s*=\s*')[0-9.]+(')"),
      lambda v: r"\g<1>%s\g<2>" % v),
-    ('README.md', re.compile(r'(version-v)[0-9.]+(-blue)'),
+    ('README.md', re.compile(r'(当前对外发布版本\s*\*\*v)[0-9.]+(\*\*)'),
+     lambda v: r"\g<1>%s\g<2>" % v),
+    ('docs/SECURITY.md', re.compile(r'(当前\s*\*\*v)[0-9.]+(\*\*)'),
      lambda v: r"\g<1>%s\g<2>" % v),
     ('publish_files.py', re.compile(r"^(VERSION\s*=\s*'v)[0-9.]+(')", re.M),
      lambda v: r"\g<1>%s\g<2>" % v),
@@ -135,7 +144,7 @@ def bump_version(ver):
     changed = []
     for name, pat, rep in VER_FILES:
         f = REPO_DIR / name
-        txt = f.read_text(encoding='utf-8')
+        txt = f.read_text(encoding='utf-8', newline='')
         new = pat.sub(rep(ver), txt, count=1)
         if new != txt:
             f.write_text(new, encoding='utf-8', newline='')   # 保住原行尾(CRLF)

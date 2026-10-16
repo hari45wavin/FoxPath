@@ -233,21 +233,47 @@ def exe_ver(p):
 # ── ① 版本一致性（纯读文件/属性，--dry-run 也跑）────────────────────────
 def check_version(cand):
     print('① 版本一致性')
-    ver_file = exe_ver(cand)
+    has_cand = os.path.isfile(cand)
+    ver_file = exe_ver(cand) if has_cand else '?'
     src = io.open(os.path.join(REPO, 'github_direct.py'), encoding='utf-8').read()
     # 单引号/双引号都认（别写死一种引号，源码换个引号就解析不到）
     m = re.search(r"APP_VERSION\s*=\s*['\"]([^'\"]+)['\"]", src)
     app_ver = m.group(1) if m else '?'
     vjp = os.path.join(REPO, 'version.json')
     vj = json.loads(io.open(vjp, encoding='utf-8').read())
-    csha = sha(cand)
+    csha = sha(cand) if has_cand else ''
     vj_sha = hashlib.sha256(open(vjp, 'rb').read()).hexdigest().upper()
-    check('exe 文件版本 == 源码 APP_VERSION', ver_file == app_ver, '%s / %s' % (ver_file, app_ver))
+    if has_cand:
+        check('exe 文件版本 == 源码 APP_VERSION', ver_file == app_ver, '%s / %s' % (ver_file, app_ver))
+        check('version.json 的 sha256 == 候选 exe 指纹', vj['exe']['sha256'].upper() == csha,
+              'json=%s cand=%s' % (vj['exe']['sha256'][:12], csha[:12]))
+        check('version.json 的 size == 候选 exe 大小', vj['exe']['size'] == os.path.getsize(cand))
+    else:
+        check('候选 exe 存在', False, cand)
     check('version.json 版本号 == APP_VERSION', vj['version'] == app_ver,
           'json=%s' % vj['version'])
-    check('version.json 的 sha256 == 候选 exe 指纹', vj['exe']['sha256'].upper() == csha,
-          'json=%s cand=%s' % (vj['exe']['sha256'][:12], csha[:12]))
-    check('version.json 的 size == 候选 exe 大小', vj['exe']['size'] == os.path.getsize(cand))
+
+    # ── README 与 SECURITY 里的当前版本 == 源码 APP_VERSION（F-05）─────────
+    readme_path = os.path.join(REPO, 'README.md')
+    if os.path.isfile(readme_path):
+        readme_txt = io.open(readme_path, encoding='utf-8').read()
+        m_readme = re.search(r'当前对外发布版本\s*\*\*v([0-9.]+)\*\*', readme_txt)
+        readme_ver = m_readme.group(1) if m_readme else '?'
+        check('README 当前版本 == 源码 APP_VERSION', readme_ver == app_ver,
+              'readme=%s app=%s' % (readme_ver, app_ver))
+    else:
+        check('README 当前版本 == 源码 APP_VERSION', False, 'README.md 不存在')
+
+    sec_path = os.path.join(REPO, 'docs', 'SECURITY.md')
+    if os.path.isfile(sec_path):
+        sec_txt = io.open(sec_path, encoding='utf-8').read()
+        m_sec = re.search(r'当前\s*\*\*v([0-9.]+)\*\*', sec_txt)
+        sec_ver = m_sec.group(1) if m_sec else '?'
+        check('SECURITY 当前版本 == 源码 APP_VERSION', sec_ver == app_ver,
+              'sec=%s app=%s' % (sec_ver, app_ver))
+    else:
+        check('SECURITY 当前版本 == 源码 APP_VERSION', False, 'docs/SECURITY.md 不存在')
+
     return app_ver, csha, vj_sha
 
 
